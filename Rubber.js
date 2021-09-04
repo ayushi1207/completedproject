@@ -24,9 +24,9 @@ class Rubber{
 			push()
 			translate(rubberpos.x, rubberpos.y);
 			rectMode(CENTER)
-			strokeWeight(4);
-			stroke("brown");
-			fill("darkblue");
+			
+			
+			fill("blue");
 			//draw the ellipse here to display the rubber ball
 		
 			ellipse(0,0,this.r,this.r);
